@@ -1,0 +1,354 @@
+/*.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  line-height:40px;
+}
+.navbar a {
+  
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}*/
+
+/*#home img{width:100%; 
+}*/
+
+body {
+ font-size:20px;
+}
+
+
+#bar ul li :hover
+{
+ 
+  background:#808080;
+ 
+}
+
+
+#interests img{
+  width:80%;
+  height:40%;
+  margin-left:10%;
+}
+
+
+#interests p{ 
+  
+    text-align:center;
+    
+}
+
+
+
+#experience{
+  /*margin-bottom:4%;*/
+  background-image:;
+}
+
+
+
+.extra span{
+
+	color:inherit;
+
+}
+
+/*.img{
+
+	height:100%;
+	width:50%;
+
+}*/
+
+header {
+ 
+  margin: .5vw;
+  font-size:0;
+  display:-ms-flexbox;
+  -ms-flexbox-wrap:wrap;
+  -ms-flexbox-direction:column;
+  -webkit-flex-flow:row wrap;
+  flex-flow:row wrap;
+  display:-webkit-box;
+  display:flex;
+ 
+}
+
+
+header div{
+
+  -webkit-box-flex:auto;
+  -ms-flex:auto;
+  flex:auto;
+  width:200px;
+  margin:.5vw;
+
+}
+
+header div img{
+
+  width:80%;
+  height:auto;
+}
+
+h2{
+  text-align: center;
+}
+
+
+@media screen and (min-width:400px)
+{
+  header div{
+    margin:0;
+
+  }
+
+  header{
+
+    padding:0;
+  }
+
+}
+
+
+
+@media only screen and (min-width: 600px) {
+    header div{
+    margin:0;
+
+  }
+
+  header{
+
+    padding:0;
+  }
+}
+
+
+  .toggle{
+
+     width:100%;     
+     padding:10px 20px;
+     background:#001f44;
+     text-align:right;
+     box-sizing:border-box;
+     color:#fff;
+     font-size: 30px;
+     display:none;
+    }    
+
+    @media (max-width:768px)
+    {
+      .toggle{
+        display:block;
+      }
+
+       ul{
+          width:100%;
+          display:none;
+        }
+
+      ul li{
+          display:block;
+          text-align: center;
+        }  
+
+      .active{
+
+             display:block; 
+          }  
+
+    }
+
+
+ .column {
+    float: left;
+    width: 25%;
+    /*padding: 10px;*/
+   /* height: 300px;*/ /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        margin-left: 2%
+    }
+
+      .container{
+
+      width:100%;
+    }
+
+}
+
+.img1 {
+  position:relative; 
+  top:1px;
+  }
+
+ 
+.img2{
+
+  position:relative; 
+  top:-25px;
+
+}
+
+
+
+#about img{ 
+  
+    width:25vw;
+    height:50%;
+    display: block;  
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 70%;
+
+    
+}
+
+#about p{ 
+  
+    
+    text-align:center;
+
+    
+}
+
+@media screen and (max-width:1000px)
+{
+    #about img{ 
+  
+    width:40vw;
+    height:50%;
+    display: block;  
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 70%;
+
+    
+  }
+
+}
+
+@media screen and (max-width:700px)
+{
+    #about img{ 
+  
+    width:50vw;
+    height:50%;
+    display: block;  
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 70%;
+
+    
+  }
+
+}
+
+
+
+#portfolio img{ 
+  
+    width:25vw;
+    height:30%;
+    display: block;  
+    margin-left:auto;
+    margin-right:auto;
+   
+
+    
+}
+
+
+@media screen and (max-width:800px)
+{
+    #portfolio img{ 
+  
+    width:30vw;
+    height:25%;
+    display: inline-block;
+    margin-left:auto;
+    margin-right:auto;
+    
+
+    
+  }
+
+}
+
+@media screen and (max-width:700px)
+{
+    #portfolio img{ 
+  
+    width:30vw;
+    height:25%;
+    display: block;  
+    margin-left:auto;
+    margin-right:auto;
+    
+
+    
+  }
+
+}
+
+@media screen and (max-width:600px)
+{
+    #portfolio img{ 
+  
+    width:35vw;
+    height:25%;
+    display: block;  
+    margin-left:auto;
+    margin-right:auto;
+    
+
+    
+  }
+
+}
+
+#contact img{width:100vw; 
+     display: block;  
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#contact{
+  margin-top:55px;
+  margin-bottom:50%;
+  
+}
+
+@media screen and (max-width:665px)
+{
+    #contact img{ 
+  
+    width:80vw;
+    height:15%;
+   /* display: inline-block; */
+    text-align: justify;
+    margin-left:auto;
+    margin-right:auto;
+    
+
+    
+  }
+
+}
